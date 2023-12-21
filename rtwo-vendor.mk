@@ -609,6 +609,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libcommonchiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcommonchiutils.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libcud_model_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcud_model_raw.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libdlrmsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdlrmsc.so \
+    vendor/motorola/rtwo/proprietary/vendor/lib64/libdng_sdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdng_sdk.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libesepmconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libesepmconfig.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libesesbprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libesesbprovision.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libeye_tracking_dsp_sample_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeye_tracking_dsp_sample_stub.so \
