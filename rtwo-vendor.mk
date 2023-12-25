@@ -9,8 +9,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/etc/permissions/com.motorola.camera3.content.ai.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.content.ai.xml \
     vendor/motorola/rtwo/proprietary/vendor/etc/permissions/com.motorola.camera3.lens.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.lens.xml \
     vendor/motorola/rtwo/proprietary/vendor/etc/permissions/com.motorola.camera3.rtwo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.rtwo.xml \
-    vendor/motorola/rtwo/proprietary/product/etc/permissions/com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera3.xml \
     vendor/motorola/rtwo/proprietary/vendor/etc/permissions/com.motorola.camera3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.xml \
+    vendor/motorola/rtwo/proprietary/product/etc/permissions/com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera3.xml \
     vendor/motorola/rtwo/proprietary/product/etc/permissions/com.motorola.moto-uirefresh.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.moto-uirefresh.xml \
     vendor/motorola/rtwo/proprietary/product/etc/permissions/com.motorola.motodisplay.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.motodisplay.xml \
     vendor/motorola/rtwo/proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml \
@@ -55,11 +55,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_2.10_enpuv3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_2.10_enpuv3.pmd \
     vendor/motorola/rtwo/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/motorola/rtwo/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd \
-    vendor/motorola/rtwo/proprietary/vendor/etc/aualgo/ainr_1.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/aualgo/ainr_1.tflite \
-    vendor/motorola/rtwo/proprietary/vendor/etc/aualgo/ainr_2.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/aualgo/ainr_2.tflite \
-    vendor/motorola/rtwo/proprietary/vendor/etc/aualgo/aualgo_azp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/aualgo/aualgo_azp.conf \
+    vendor/motorola/rtwo/proprietary/vendor/etc/aualgo/ainr_tfv2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/aualgo/ainr_tfv2.dat \
+    vendor/motorola/rtwo/proprietary/vendor/etc/aualgo/aualgo_ainr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/aualgo/aualgo_ainr.conf \
+    vendor/motorola/rtwo/proprietary/vendor/etc/aualgo/aualgo_arp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/aualgo/aualgo_arp.conf \
+    vendor/motorola/rtwo/proprietary/vendor/etc/aualgo/aualgo_comp_azpp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/aualgo/aualgo_comp_azpp.conf \
     vendor/motorola/rtwo/proprietary/vendor/etc/aualgo/aualgo_sst.conf:$(TARGET_COPY_OUT_VENDOR)/etc/aualgo/aualgo_sst.conf \
-    vendor/motorola/rtwo/proprietary/vendor/etc/aualgo_arp_conf.inix:$(TARGET_COPY_OUT_VENDOR)/etc/aualgo_arp_conf.inix \
     vendor/motorola/rtwo/proprietary/vendor/etc/camera/aec_golden_tele.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/aec_golden_tele.bin \
     vendor/motorola/rtwo/proprietary/vendor/etc/camera/aec_golden_wide.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/aec_golden_wide.bin \
     vendor/motorola/rtwo/proprietary/vendor/etc/camera/anc.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/anc.bin \
@@ -373,7 +373,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/lib/libmfGhostDetection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfGhostDetection.so \
     vendor/motorola/rtwo/proprietary/vendor/lib/libmfec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfec.so \
     vendor/motorola/rtwo/proprietary/vendor/lib/libmmcamera_bestats.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_bestats.so \
-    vendor/motorola/rtwo/proprietary/vendor/lib/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cac3.so \
+    vendor/motorola/rtwo/proprietary/vendor/lib/libmmcamera_cac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cac.so \
     vendor/motorola/rtwo/proprietary/vendor/lib/libmmcamera_lscv35.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_lscv35.so \
     vendor/motorola/rtwo/proprietary/vendor/lib/libmmcamera_mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfnr.so \
     vendor/motorola/rtwo/proprietary/vendor/lib/libmmcamera_mfnr_t4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfnr_t4.so \
@@ -627,7 +627,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libmfGhostDetection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfGhostDetection.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libmfec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfec.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libmmcamera_bestats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_bestats.so \
-    vendor/motorola/rtwo/proprietary/vendor/lib64/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_cac3.so \
+    vendor/motorola/rtwo/proprietary/vendor/lib64/libmmcamera_cac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_cac.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libmmcamera_lscv35.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_lscv35.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libmmcamera_mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_mfnr.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libmmcamera_mfnr_t4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_mfnr_t4.so \
