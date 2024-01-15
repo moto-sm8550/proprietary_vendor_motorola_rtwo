@@ -26,8 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-goodixservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-goodixservice \
     vendor/motorola/rtwo/proprietary/vendor/bin/hw/motorola.hardware.camera.desktop@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.desktop@2.0-service \
     vendor/motorola/rtwo/proprietary/vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.nxp.hardware.nfc@2.0-service \
-    vendor/motorola/rtwo/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.1-service \
-    vendor/motorola/rtwo/proprietary/vendor/bin/hw/vendor.qti.secure_element@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.secure_element@1.2-service \
     vendor/motorola/rtwo/proprietary/vendor/bin/mot_vsync_psd:$(TARGET_COPY_OUT_VENDOR)/bin/mot_vsync_psd \
     vendor/motorola/rtwo/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd \
     vendor/motorola/rtwo/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__eai_2.10_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__eai_2.10_enpu3.pmd \
@@ -78,8 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc \
     vendor/motorola/rtwo/proprietary/vendor/etc/init/motorola.hardware.camera.desktop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.desktop@2.0-service.rc \
     vendor/motorola/rtwo/proprietary/vendor/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc \
-    vendor/motorola/rtwo/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
-    vendor/motorola/rtwo/proprietary/vendor/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/motorola/rtwo/proprietary/vendor/etc/jiigan/jiigan_model.data:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/jiigan_model.data \
     vendor/motorola/rtwo/proprietary/vendor/etc/libnfc-PN560_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-PN560_38_4MHZ.conf \
     vendor/motorola/rtwo/proprietary/vendor/etc/libnfc-SN220_19_2MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220_19_2MHZ.conf \
@@ -389,7 +385,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/lib/libos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libos.so \
     vendor/motorola/rtwo/proprietary/vendor/lib/libpn560_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn560_fw.so \
     vendor/motorola/rtwo/proprietary/vendor/lib/libportrait_repair_ppl3_ocl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libportrait_repair_ppl3_ocl.so \
-    vendor/motorola/rtwo/proprietary/vendor/lib/libpowercore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowercore.so \
     vendor/motorola/rtwo/proprietary/vendor/lib/libqll.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqll.so \
     vendor/motorola/rtwo/proprietary/vendor/lib/libqll10.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqll10.so \
     vendor/motorola/rtwo/proprietary/vendor/lib/libqllengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqllengine.so \
@@ -405,13 +400,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/lib/libthreadutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthreadutils.so \
     vendor/motorola/rtwo/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/motorola/rtwo/proprietary/vendor/lib/libvideoml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoml.so \
-    vendor/motorola/rtwo/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/motorola/rtwo/proprietary/vendor/lib/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance.so \
     vendor/motorola/rtwo/proprietary/vendor/lib/motorola.hardware.camera.desktop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.desktop@1.0.so \
     vendor/motorola/rtwo/proprietary/vendor/lib/motorola.hardware.camera.desktop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.desktop@2.0.so \
     vendor/motorola/rtwo/proprietary/vendor/lib/vendor.qti.hardware.camera.aon-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.aon-service-impl.so \
     vendor/motorola/rtwo/proprietary/vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
-    vendor/motorola/rtwo/proprietary/vendor/lib64/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.secure_element@1.0-impl.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/camera/arcsoft_dc_calibration_u.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_dc_calibration_u.bin \
     vendor/motorola/rtwo/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p128e_imx663_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p128e_imx663_eeprom.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p128e_ov50a_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p128e_ov50a_eeprom.so \
@@ -557,8 +550,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/lib64/hw/com.qti.chi.offline.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.offline.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.so \
-    vendor/motorola/rtwo/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so \
-    vendor/motorola/rtwo/proprietary/vendor/lib64/jcos_nq_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/jcos_nq_client.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libAncHumanSegFigureFusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAncHumanSegFigureFusion.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libFace3DTA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFace3DTA.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libFace3D_hlos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFace3D_hlos.so \
@@ -610,8 +601,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libcud_model_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcud_model_raw.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libdlrmsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdlrmsc.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libdng_sdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdng_sdk.so \
-    vendor/motorola/rtwo/proprietary/vendor/lib64/libesepmconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libesepmconfig.so \
-    vendor/motorola/rtwo/proprietary/vendor/lib64/libesesbprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libesesbprovision.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libeye_tracking_dsp_sample_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeye_tracking_dsp_sample_stub.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libface3d_dev.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libface3d_dev.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libfcell.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfcell.so \
@@ -645,7 +634,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libos.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libpn560_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpn560_fw.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libportrait_repair_ppl3_ocl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libportrait_repair_ppl3_ocl.so \
-    vendor/motorola/rtwo/proprietary/vendor/lib64/libpowercore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowercore.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libqll.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqll.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libqll10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqll10.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libqllengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqllengine.so \
@@ -667,7 +655,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libubifocus.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libvideoml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoml.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance.so \
-    vendor/motorola/rtwo/proprietary/vendor/lib64/ls_nq_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ls_nq_client.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/motorola.hardware.camera.desktop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.camera.desktop@1.0.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/motorola.hardware.camera.desktop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.camera.desktop@2.0.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/nfc_nci.nqx.default.hw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci.nqx.default.hw.so \
@@ -677,8 +664,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1_vendor.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/vendor.nxp.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.hardware.nfc@2.0.so \
-    vendor/motorola/rtwo/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.0.so \
-    vendor/motorola/rtwo/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.1.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/vendor.qti.hardware.camera.aon-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.aon-service-impl.so \
     vendor/motorola/rtwo/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
