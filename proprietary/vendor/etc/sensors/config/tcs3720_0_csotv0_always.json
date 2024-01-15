@@ -1,0 +1,34 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Surf", "RCM", "QRD"],
+    "soc_id": ["519", "536"],
+    "panel": ["csot_nt37705_667_curve_1080x2400_dsc_cmd_v0"]
+  },
+  "tcs3720_platform":{
+    "owner": "sns_tcs3720",
+    ".prox":{
+      "owner": "sns_tcs3720",
+      ".def_config":{
+        "owner": "sns_tcs3720",
+        "p_sync_delay_us_0":{ "type": "flt", "ver": "10101010",
+          "data": "11700.0"
+        },
+        "p_sync_delay_us_1":{ "type": "flt", "ver": "10101010",
+          "data": "7850.0"
+        },
+        "p_sync_delay_us_2":{ "type": "flt", "ver": "10101010",
+          "data": "2030.0"
+        },
+        "p_sync_delay_us_3":{ "type": "flt", "ver": "10101010",
+          "data": "7650.0"
+        },
+        "p_sync_delay_us_4":{ "type": "flt", "ver": "10101010",
+          "data": "7650.0"
+        },
+        "p_sync_delay_us_5":{ "type": "flt", "ver": "10101010",
+          "data": "4900.0"
+        }
+      }
+    }
+  }
+}
