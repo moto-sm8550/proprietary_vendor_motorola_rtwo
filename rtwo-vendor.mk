@@ -3606,7 +3606,6 @@ PRODUCT_PACKAGES += \
     libvideoml \
     libvidhance \
     panel_als_comp_filter_rtwo \
-    vendor.goodix.hardware.biometrics.fingerprint@2.1_vendor \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     MotoSignatureApp \

@@ -4,6 +4,7 @@
 
 soong_namespace {
     imports: [
+        "device/motorola/sm8550-common",
         "vendor/motorola/sm8550-common",
         "hardware/qcom-caf/sm8550",
         "hardware/qcom-caf/wlan",
@@ -6743,7 +6744,7 @@ cc_prebuilt_library_shared {
                 "libQSEEComAPI",
                 "com.motorola.hardware.display.panel@1.0",
                 "libdmabufheap",
-                "vendor.goodix.hardware.biometrics.fingerprint@2.1_vendor",
+                "vendor.goodix.hardware.biometrics.fingerprint@2.1",
                 "com.motorola.hardware.biometric.fingerprint@1.0",
                 "libc",
                 "libm",
@@ -8385,35 +8386,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.goodix.hardware.biometrics.fingerprint@2.1_vendor",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1_vendor.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "android.hidl.base@1.0",
                 "libc++",
                 "libc",
                 "libm",
