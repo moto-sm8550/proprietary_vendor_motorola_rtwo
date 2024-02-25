@@ -22,7 +22,7 @@ android_app_import {
 	name: "EuiccPartnerApp",
 	owner: "motorola",
 	apk: "proprietary/product/app/EuiccPartnerApp/EuiccPartnerApp.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -44,7 +44,7 @@ android_app_import {
 	name: "EuiccGoogle",
 	owner: "motorola",
 	apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogle.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
