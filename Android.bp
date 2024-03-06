@@ -12,6 +12,7 @@ android_app_import {
 	name: "MotoSignatureApp",
 	owner: "motorola",
 	apk: "proprietary/system/app/MotoSignatureApp/MotoSignatureApp.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -22,6 +23,7 @@ android_app_import {
 	name: "EuiccPartnerApp",
 	owner: "motorola",
 	apk: "proprietary/product/app/EuiccPartnerApp/EuiccPartnerApp.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -33,6 +35,7 @@ android_app_import {
 	name: "MotCamera3AI",
 	owner: "motorola",
 	apk: "proprietary/product/app/MotCamera3AI/MotCamera3AI.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -44,6 +47,7 @@ android_app_import {
 	name: "EuiccGoogle",
 	owner: "motorola",
 	apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogle.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -80,6 +84,7 @@ android_app_import {
 	name: "MotCamera4",
 	owner: "motorola",
 	apk: "proprietary/product/priv-app/MotCamera4/MotCamera4.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
