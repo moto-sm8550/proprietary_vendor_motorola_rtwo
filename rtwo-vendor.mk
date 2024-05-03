@@ -16,6 +16,58 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/permissions/privapp-permissions-com.google.android.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.google.android.euicc.xml \
     vendor/motorola/rtwo/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera3.xml \
     vendor/motorola/rtwo/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml \
+    vendor/motorola/rtwo/proprietary/product/lib64/libAncHumanSegFigureFusion-jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libAncHumanSegFigureFusion-jni.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libFNVfbEngineHAL_v8.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libFNVfbEngineHAL_v8.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libNvBeautyEffect.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libNvBeautyEffect.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libNvEffectSdkCore.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libNvEffectSdkCore.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libSuperSensorCPU_v11222022.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libSuperSensorCPU_v11222022.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libSuperSensorProcessorCWrapper_v4.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libSuperSensorProcessorCWrapper_v4.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libSuperSensorProcessor_v11222022.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libSuperSensorProcessor_v11222022.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libSuperSensor_v11222022.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libSuperSensor_v11222022.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_dualcam_refocus.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libarcsoft_frc_8450.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_frc_8450.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_hdr_detection.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_high_dynamic_range.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libarcsoft_high_dynamic_range_v4_dxo.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_high_dynamic_range_v4_dxo.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libarcsoft_multiframe_bokeh_image_dxo.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_multiframe_bokeh_image_dxo.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libarcsoft_portrait_distortion_correction.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_portrait_distortion_correction.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libarcsoft_scbokeh_Adreno730.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_scbokeh_Adreno730.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libas-super-slow-motion.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libas-super-slow-motion.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libbarhopper_v3.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libbarhopper_v3.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libbg-postproc-jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libbg-postproc-jni.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libc++.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libc++.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libc++_shared.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libc++_shared.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libcamerax_extension_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libcamerax_extension_jni.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libdoc-util.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdoc-util.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libdynamic_depth.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdynamic_depth.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libfn-beauty-vfb-v8-base.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libfn-beauty-vfb-v8-base.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libfoundation.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libfoundation.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libgg-dynamic_depth.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgg-dynamic_depth.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libgg-tensorflow-lite.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgg-tensorflow-lite.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libgif.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgif.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libjpeg.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libjpeg.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/liblenovo_panorama.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/liblenovo_panorama.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libmcf-base.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-base.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libmcf-jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-jni.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libmcf-qc-fd-offline_local.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-qc-fd-offline_local.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libmcf-stand-alone-sm.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-stand-alone-sm.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libmeishe-nv-effects-thumbnails.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmeishe-nv-effects-thumbnails.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmmcamera_faceproc2.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libmorpho_panorama_gp3.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_panorama_gp3.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libmorpho_panorama_gp3_core.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_panorama_gp3_core.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libmorpho_sensor_fusion.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_sensor_fusion.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libmot-cinemagraph-engine.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmot-cinemagraph-engine.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libmot-util.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmot-util.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libmot_trigger_v3.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmot_trigger_v3.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libmot_trigger_v3_lib.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmot_trigger_v3_lib.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libmpbase.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmpbase.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libomp.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libomp.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libpostproc-transfer-data.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libpostproc-transfer-data.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libqc-snpe.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libqc-snpe.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libsmart_ppt.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsmart_ppt.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libtensorflowlite.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libtensorflowlite.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libtensorflowlite_gpu_delegate.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libtensorflowlite_gpu_delegate.so \
+    vendor/motorola/rtwo/proprietary/product/lib64/libtensorflowlite_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libtensorflowlite_jni.so \
     vendor/motorola/rtwo/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/rtwo/proprietary/system/etc/permissions/moto-core_services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-core_services.xml \
     vendor/motorola/rtwo/proprietary/system/etc/permissions/moto-settings.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-settings.xml \
