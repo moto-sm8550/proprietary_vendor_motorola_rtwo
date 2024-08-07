@@ -3524,8 +3524,6 @@ PRODUCT_PACKAGES += \
     motorola.hardware.camera.desktop@2.0 \
     nfc_nci.nqx.default.hw \
     panel_als_comp_filter_rtwo \
-    sensors.moto \
-    sensors.ssc \
     vendor.goodix.hardware.biometrics.fingerprint@2.1_vendor \
     vendor.nxp.hardware.nfc@2.0 \
     vendor.qti.hardware.camera.aon-service-impl \
