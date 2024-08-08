@@ -8396,73 +8396,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "motorola.hardware.camera.desktop@1.0",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/motorola.hardware.camera.desktop@1.0.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.bufferqueue@2.0",
-                "android.hardware.graphics.common@1.0",
-                "android.hardware.graphics.common@1.1",
-                "android.hardware.graphics.common@1.2",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "motorola.hardware.camera.desktop@2.0",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/motorola.hardware.camera.desktop@2.0.so",
-            ],
-            shared_libs: [
-                "motorola.hardware.camera.desktop@1.0",
-                "android.hardware.graphics.bufferqueue@2.0",
-                "android.hardware.graphics.bufferqueue@1.0",
-                "android.hardware.media@1.0",
-                "android.hardware.graphics.common@1.0",
-                "android.hardware.graphics.common@1.1",
-                "android.hardware.graphics.common@1.2",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "nfc_nci.nqx.default.hw",
     owner: "motorola",
     strip: {
@@ -8852,49 +8785,6 @@ cc_prebuilt_binary {
                 "libhardware",
                 "libutils",
                 "android.hardware.biometrics.fingerprint@2.1",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "motorola.hardware.camera.desktop@2.0-service",
-    owner: "motorola",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/motorola.hardware.camera.desktop@2.0-service",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libbase",
-                "libutils",
-                "libhardware_legacy",
-                "libcamera_metadata",
-                "libhardware",
-                "libhidlbase",
-                "libui",
-                "libgui_vendor",
-                "libyuv",
-                "android.hardware.graphics.bufferqueue@1.0",
-                "android.hardware.graphics.bufferqueue@2.0",
-                "libstagefright_bufferqueue_helper",
-                "libstagefright_foundation",
-                "libbinder",
-                "motorola.hardware.camera.desktop@1.0",
-                "motorola.hardware.camera.desktop@2.0",
                 "libc++",
                 "libc",
                 "libm",

@@ -3146,7 +3146,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/dolby_vision.cfg \
     vendor/motorola/rtwo/proprietary/vendor/etc/eva/facedetection/model3.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facedetection/model3.dat \
     vendor/motorola/rtwo/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc \
-    vendor/motorola/rtwo/proprietary/vendor/etc/init/motorola.hardware.camera.desktop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.desktop@2.0-service.rc \
     vendor/motorola/rtwo/proprietary/vendor/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc \
     vendor/motorola/rtwo/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/motorola/rtwo/proprietary/vendor/etc/jiigan/jiigan_model.data:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/jiigan_model.data \
@@ -3495,8 +3494,6 @@ PRODUCT_PACKAGES += \
     libubifocus \
     libvideoml \
     libvidhance \
-    motorola.hardware.camera.desktop@1.0 \
-    motorola.hardware.camera.desktop@2.0 \
     nfc_nci.nqx.default.hw \
     panel_als_comp_filter_rtwo \
     vendor.goodix.hardware.biometrics.fingerprint@2.1_vendor \
@@ -3519,7 +3516,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.camera.postproc-impl.xml \
     vendor.qti.camera.provider.xml \
     android.hardware.biometrics.fingerprint@2.1-goodixservice \
-    motorola.hardware.camera.desktop@2.0-service \
     vendor.nxp.hardware.nfc@2.0-service \
     vendor.qti.camera.provider-service_64 \
     mot_vsync_psd \
