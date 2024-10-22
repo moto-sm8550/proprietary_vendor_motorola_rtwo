@@ -69,6 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc \
     vendor/motorola/rtwo/proprietary/vendor/etc/init/motorola.hardware.camera.desktop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.desktop@2.0-service.rc \
     vendor/motorola/rtwo/proprietary/vendor/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc \
+    vendor/motorola/rtwo/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/motorola/rtwo/proprietary/vendor/etc/jiigan/jiigan_model.data:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/jiigan_model.data \
     vendor/motorola/rtwo/proprietary/vendor/etc/libnfc-PN560_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-PN560_38_4MHZ.conf \
     vendor/motorola/rtwo/proprietary/vendor/etc/libnfc-SN220_19_2MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220_19_2MHZ.conf \
@@ -462,9 +463,13 @@ PRODUCT_PACKAGES += \
     moto-core_services \
     moto-settings \
     com.android.hotwordenrollment.common.util \
+    vendor.qti.camera.aon-impl-1.3.xml \
+    vendor.qti.camera.postproc-impl.xml \
+    vendor.qti.camera.provider.xml \
     android.hardware.biometrics.fingerprint@2.1-goodixservice \
     motorola.hardware.camera.desktop@2.0-service \
     vendor.nxp.hardware.nfc@2.0-service \
+    vendor.qti.camera.provider-service_64 \
     mot_vsync_psd \
     motsettings
 
