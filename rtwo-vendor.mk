@@ -348,7 +348,6 @@ PRODUCT_PACKAGES += \
     libaidenoiserv2 \
     libanc_supervq \
     libancbase_rt_fusion \
-    libar-acdb \
     libarcsoft_chi_utils \
     libarcsoft_hdr_detection \
     libarcsoft_high_dynamic_range_v4 \
