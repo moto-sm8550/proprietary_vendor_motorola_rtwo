@@ -384,7 +384,6 @@ PRODUCT_PACKAGES += \
     libcommonchiutils \
     libcud_model_raw \
     libdlrmsc \
-    libdng_sdk \
     libeye_tracking_dsp_sample_stub \
     libface3d_dev \
     libfcell \
