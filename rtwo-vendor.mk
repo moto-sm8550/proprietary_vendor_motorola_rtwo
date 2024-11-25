@@ -3242,8 +3242,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/firmware/mot_dw9784.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/mot_dw9784.prog \
     vendor/motorola/rtwo/proprietary/vendor/firmware/tm_goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tm_goodix_cfg_group.bin \
     vendor/motorola/rtwo/proprietary/vendor/firmware/tm_goodix_test_limits_255.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/tm_goodix_test_limits_255.csv \
-    vendor/motorola/rtwo/proprietary/vendor/firmware/vpu30_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v.mbn \
-    vendor/motorola/rtwo/proprietary/vendor/firmware/vpu30_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v_unsigned.mbn \
     vendor/motorola/rtwo/proprietary/vendor/lib64/camera/arcsoft_dc_calibration_u.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_dc_calibration_u.bin \
     vendor/motorola/rtwo/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_rtwo_imx663_sunny.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_rtwo_imx663_sunny.bin \
     vendor/motorola/rtwo/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_rtwo_ov50a_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_rtwo_ov50a_qtech.bin \
