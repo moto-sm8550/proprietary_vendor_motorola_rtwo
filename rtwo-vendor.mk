@@ -3274,18 +3274,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/etc/eva/facedetection/model3.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facedetection/model3.dat \
     vendor/motorola/rtwo/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc \
     vendor/motorola/rtwo/proprietary/vendor/etc/init/motorola.hardware.camera.imgtuner.aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.imgtuner.aidl-service.rc \
-    vendor/motorola/rtwo/proprietary/vendor/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc \
     vendor/motorola/rtwo/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/motorola/rtwo/proprietary/vendor/etc/jiigan/jiigan_model.data:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/jiigan_model.data \
     vendor/motorola/rtwo/proprietary/vendor/etc/libnfc-PN560_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-PN560_38_4MHZ.conf \
-    vendor/motorola/rtwo/proprietary/vendor/etc/libnfc-SN220_19_2MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220_19_2MHZ.conf \
-    vendor/motorola/rtwo/proprietary/vendor/etc/libnfc-SN220_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220_38_4MHZ.conf \
     vendor/motorola/rtwo/proprietary/vendor/etc/libnfc-SN220_38_4MHZ_UICC.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220_38_4MHZ_UICC.conf \
-    vendor/motorola/rtwo/proprietary/vendor/etc/libnfc-mtp-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf \
-    vendor/motorola/rtwo/proprietary/vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100_38_4MHZ.conf \
     vendor/motorola/rtwo/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    vendor/motorola/rtwo/proprietary/vendor/etc/libnfc-qrd-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100.conf \
-    vendor/motorola/rtwo/proprietary/vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100_38_4MHZ.conf \
     vendor/motorola/rtwo/proprietary/vendor/etc/permissions/com.motorola.camera3.content.ai.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.content.ai.xml \
     vendor/motorola/rtwo/proprietary/vendor/etc/permissions/com.motorola.camera3.lens.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.lens.xml \
     vendor/motorola/rtwo/proprietary/vendor/etc/permissions/com.motorola.camera3.rtwo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.rtwo.xml \
@@ -3609,7 +3602,6 @@ PRODUCT_PACKAGES += \
     libremosaiclib \
     librmsclib1 \
     libsfeShiftExtrapolation \
-    libsn100u_fw \
     libsn220u_fw \
     libsnpe_loader \
     libswregistrationalgo \
@@ -3622,10 +3614,8 @@ PRODUCT_PACKAGES += \
     libvideoml \
     libvidhance \
     motorola.hardware.camera.imgtuner.aidl-V1-ndk_platform \
-    nfc_nci.nqx.default.hw \
     panel_als_comp_filter_rtwo \
     vendor.goodix.hardware.biometrics.fingerprint@2.1_vendor \
-    vendor.nxp.hardware.nfc@2.0 \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     libimgTuner_jni.motoimagetuner \
@@ -3649,7 +3639,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.camera.provider.xml \
     android.hardware.biometrics.fingerprint@2.1-goodixservice \
     motorola.hardware.camera.imgtuner.aidl-service \
-    vendor.nxp.hardware.nfc@2.0-service \
     vendor.qti.camera.provider-service_64 \
     mot_vsync_psd \
     motsettings

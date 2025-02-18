@@ -8070,24 +8070,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsn100u_fw",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libsn100u_fw.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libsn220u_fw",
     owner: "motorola",
     strip: {
@@ -8439,43 +8421,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "nfc_nci.nqx.default.hw",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/nfc_nci.nqx.default.hw.so",
-            ],
-            shared_libs: [
-                "libbase_shim",
-                "android.hardware.nfc@1.0",
-                "android.hardware.nfc@1.1",
-                "android.hardware.nfc@1.2",
-                "vendor.nxp.hardware.nfc@2.0",
-                "android.hardware.secure_element@1.0",
-                "libbase",
-                "libcutils",
-                "libhardware",
-                "libhardware_legacy",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "panel_als_comp_filter_rtwo",
     owner: "motorola",
     strip: {
@@ -8518,34 +8463,6 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libcutils",
                 "android.hidl.base@1.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.nxp.hardware.nfc@2.0",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.nxp.hardware.nfc@2.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -8926,40 +8843,6 @@ cc_prebuilt_binary {
                 "libcutils",
                 "libziparchive",
                 "motorola.hardware.camera.imgtuner.aidl-V1-ndk_platform",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "vendor.nxp.hardware.nfc@2.0-service",
-    owner: "motorola",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service",
-            ],
-            shared_libs: [
-                "nfc_nci.nqx.default.hw",
-                "se_nq_extn_client",
-                "libhidlbase",
-                "libutils",
-                "liblog",
-                "android.hardware.nfc@1.0",
-                "android.hardware.nfc@1.1",
-                "android.hardware.nfc@1.2",
-                "vendor.nxp.hardware.nfc@2.0",
                 "libc++",
                 "libc",
                 "libm",
