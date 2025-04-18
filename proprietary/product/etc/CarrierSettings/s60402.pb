@@ -1,5 +1,5 @@
 
-s60402 ›¹¢„@
+s60402ðÛ¢§„@
 MMSmms.wana.maZhttp://mms.wana.ma:38090b
 10.86.0.10j8080(
 WAPwww.wana.ma2
