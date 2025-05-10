@@ -16,6 +16,30 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+    name: "motorola.hardware.camera.imgtuner.aidl-V1-ndk",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/motorola.hardware.camera.imgtuner.aidl-V1-ndk.so",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
     name: "com.mot.eeprom.mot_gt24p128e_imx663_eeprom",
     owner: "motorola",
     strip: {
@@ -8390,6 +8414,31 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "motorola.hardware.camera.imgtuner.aidl-V1-ndk_platform",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/motorola.hardware.camera.imgtuner.aidl-V1-ndk_platform.so",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "nfc_nci.nqx.default.hw",
     owner: "motorola",
     strip: {
@@ -8609,6 +8658,40 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
+cc_prebuilt_library_shared {
+    name: "libimgTuner_jni.motoimagetuner",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system_ext/lib64/libimgTuner_jni.motoimagetuner.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "libhwbinder",
+                "libhidltransport",
+                "libutils",
+                "libcutils",
+                "libandroid",
+                "libbase",
+                "libbinder_ndk",
+                "motorola.hardware.camera.imgtuner.aidl-V1-ndk",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    system_ext_specific: true,
+}
+
 android_app_import {
     name: "MotoSignatureApp",
     owner: "motorola",
@@ -8694,6 +8777,19 @@ android_app_import {
 }
 
 android_app_import {
+    name: "ImagerTuning-V",
+    owner: "motorola",
+    apk: "proprietary/system_ext/priv-app/ImagerTuning-V/ImagerTuning-V.apk",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
     name: "MotorolaSettingsProvider",
     owner: "motorola",
     apk: "proprietary/system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk",
@@ -8738,6 +8834,24 @@ dex_import {
     system_ext_specific: true,
 }
 
+dex_import {
+    name: "com.motorola.libimgTuner",
+    owner: "motorola",
+    jars: [
+        "proprietary/system_ext/framework/com.motorola.libimgTuner.jar",
+    ],
+    system_ext_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "motorola.hardware.camera.imgtuner.aidl.xml",
+    owner: "motorola",
+    src: "proprietary/vendor/etc/vintf/manifest/motorola.hardware.camera.imgtuner.aidl.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
 prebuilt_etc_xml {
     name: "vendor.qti.camera.aon-impl-1.3.xml",
     owner: "motorola",
@@ -8780,6 +8894,38 @@ cc_prebuilt_binary {
                 "libhardware",
                 "libutils",
                 "android.hardware.biometrics.fingerprint@2.1",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "motorola.hardware.camera.imgtuner.aidl-service",
+    owner: "motorola",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/hw/motorola.hardware.camera.imgtuner.aidl-service",
+            ],
+            shared_libs: [
+                "libbase",
+                "libbinder_ndk",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libziparchive",
+                "motorola.hardware.camera.imgtuner.aidl-V1-ndk_platform",
                 "libc++",
                 "libc",
                 "libm",
