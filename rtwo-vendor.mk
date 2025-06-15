@@ -3724,6 +3724,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.camera.aon-impl-1.3.xml \
     vendor.qti.camera.postproc-impl.xml \
     vendor.qti.camera.provider.xml \
+    capsense_reset \
     android.hardware.biometrics.fingerprint@2.1-goodixservice \
     vendor.qti.camera.provider-service_64 \
     mot_vsync_psd \

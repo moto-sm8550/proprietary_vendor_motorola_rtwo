@@ -8631,6 +8631,35 @@ prebuilt_etc_xml {
 }
 
 cc_prebuilt_binary {
+    name: "capsense_reset",
+    owner: "motorola",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/capsense_reset",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libhardware_legacy",
+                "libutils",
+                "libsensorndkbridge",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
     name: "android.hardware.biometrics.fingerprint@2.1-goodixservice",
     owner: "motorola",
     target: {
