@@ -1,1 +1,0 @@
-libimgTuner_jni.motoimagetuner.so

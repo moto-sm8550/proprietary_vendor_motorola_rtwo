@@ -3219,13 +3219,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/rtwo/proprietary/system/etc/permissions/moto-core_services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-core_services.xml \
     vendor/motorola/rtwo/proprietary/system/etc/permissions/moto-settings.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-settings.xml \
-    vendor/motorola/rtwo/proprietary/system_ext/etc/enable-disable-packages/enable-disable-com.motorola.imagertuning_u.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/enable-disable-packages/enable-disable-com.motorola.imagertuning_u.xml \
     vendor/motorola/rtwo/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
-    vendor/motorola/rtwo/proprietary/system_ext/etc/permissions/com.motorola.imagertuning.v.rtwo.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.motorola.imagertuning.v.rtwo.xml \
-    vendor/motorola/rtwo/proprietary/system_ext/etc/permissions/com.motorola.imagertuning.v.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.motorola.imagertuning.v.xml \
-    vendor/motorola/rtwo/proprietary/system_ext/etc/permissions/com.motorola.libimgTuner.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.motorola.libimgTuner.xml \
-    vendor/motorola/rtwo/proprietary/system_ext/etc/permissions/privapp-permissions-com.motorola.imagertuning.v.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-com.motorola.imagertuning.v.xml \
-    vendor/motorola/rtwo/proprietary/system_ext/etc/public.libraries-motoimagetuner.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-motoimagetuner.txt \
     vendor/motorola/rtwo/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd \
     vendor/motorola/rtwo/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__eai_2.10_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__eai_2.10_enpu3.pmd \
     vendor/motorola/rtwo/proprietary/vendor/etc/acdbdata/kalama_mtp/MTP_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/kalama_mtp/MTP_acdb_cal.acdb \
@@ -3273,7 +3267,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/dolby_vision.cfg \
     vendor/motorola/rtwo/proprietary/vendor/etc/eva/facedetection/model3.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facedetection/model3.dat \
     vendor/motorola/rtwo/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc \
-    vendor/motorola/rtwo/proprietary/vendor/etc/init/motorola.hardware.camera.imgtuner.aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.imgtuner.aidl-service.rc \
     vendor/motorola/rtwo/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/motorola/rtwo/proprietary/vendor/etc/jiigan/jiigan_model.data:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/jiigan_model.data \
     vendor/motorola/rtwo/proprietary/vendor/etc/libnfc-PN560_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-PN560_38_4MHZ.conf \
@@ -3383,7 +3376,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/vendor/lib64/cud_model_raw.tflite:$(TARGET_COPY_OUT_VENDOR)/lib64/cud_model_raw.tflite
 
 PRODUCT_PACKAGES += \
-    motorola.hardware.camera.imgtuner.aidl-V1-ndk \
     com.mot.eeprom.mot_gt24p128e_imx663_eeprom \
     com.mot.eeprom.mot_gt24p128e_ov50a_eeprom \
     com.mot.eeprom.mot_gt24p128e_s5kjn1_eeprom \
@@ -3613,12 +3605,10 @@ PRODUCT_PACKAGES += \
     libubifocus \
     libvideoml \
     libvidhance \
-    motorola.hardware.camera.imgtuner.aidl-V1-ndk_platform \
     panel_als_comp_filter_rtwo \
     vendor.goodix.hardware.biometrics.fingerprint@2.1_vendor \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
-    libimgTuner_jni.motoimagetuner \
     MotoSignatureApp \
     EuiccPartnerApp \
     MotCamera3AI \
@@ -3626,19 +3616,15 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     MotCamera4 \
-    ImagerTuning-V \
     MotorolaSettingsProvider \
     com.motorola.motosignature \
     moto-core_services \
     moto-settings \
     com.android.hotwordenrollment.common.util \
-    com.motorola.libimgTuner \
-    motorola.hardware.camera.imgtuner.aidl.xml \
     vendor.qti.camera.aon-impl-1.3.xml \
     vendor.qti.camera.postproc-impl.xml \
     vendor.qti.camera.provider.xml \
     android.hardware.biometrics.fingerprint@2.1-goodixservice \
-    motorola.hardware.camera.imgtuner.aidl-service \
     vendor.qti.camera.provider-service_64 \
     mot_vsync_psd \
     motsettings
