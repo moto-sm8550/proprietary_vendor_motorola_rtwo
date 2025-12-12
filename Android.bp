@@ -8602,7 +8602,8 @@ android_app_import {
     name: "MotCamera4",
     owner: "motorola",
     apk: "proprietary/product/priv-app/MotCamera4/MotCamera4.apk",
-    certificate: "platform",
+    preprocessed: true,
+    presigned: true,
     dex_preopt: {
         enabled: false,
     },
