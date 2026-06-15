@@ -74,6 +74,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20610spn_3d_be_2d_transatel.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20610spn_3d_be_2d_transatel.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20612.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20612.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20614.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20614.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20614gid1_3d_0e.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20614gid1_3d_0e.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20614spn_3d_telavox.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20614spn_3d_telavox.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20620.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20620.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20620gid1_3d_28.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20620gid1_3d_28.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20628.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20628.pb \
@@ -81,11 +83,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20800.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20800.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20801.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20801.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20801gid1_3d_33.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20801gid1_3d_33.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20801gid1_3d_4e.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20801gid1_3d_4e.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20801gid1_3d_4e524a31.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20801gid1_3d_4e524a31.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20801gid1_3d_52.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20801gid1_3d_52.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20801imsi_3d_208011511.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20801imsi_3d_208011511.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20801imsi_3d_20801156.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20801imsi_3d_20801156.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20801imsi_3d_20801157.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20801imsi_3d_20801157.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20801imsi_3d_20801163.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20801imsi_3d_20801163.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20801imsi_3d_20801164.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20801imsi_3d_20801164.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20801spn_3d_1_26_1.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20801spn_3d_1_26_1.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20801spn_3d_mobile.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20801spn_3d_mobile.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20801spn_3d_rakuten.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20801spn_3d_rakuten.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20801spn_3d_virgin.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20801spn_3d_virgin.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20802.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20802.pb \
@@ -94,6 +101,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s208090gid1_3d_11ffffffffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s208090gid1_3d_11ffffffffffffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20809gid1_3d_11ffffffffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20809gid1_3d_11ffffffffffffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20809gid1_3d_6332.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20809gid1_3d_6332.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20809gid1_3d_6336.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20809gid1_3d_6336.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20809gid1_3d_6530.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20809gid1_3d_6530.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20809gid1_3d_6532.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20809gid1_3d_6532.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20809gid1_3d_6538.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20809gid1_3d_6538.pb \
@@ -101,6 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20809gid1_3d_6636.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20809gid1_3d_6636.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20809gid1_3d_6638.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20809gid1_3d_6638.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20809gid1_3d_6732.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20809gid1_3d_6732.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20809gid1_3d_6736.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20809gid1_3d_6736.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20809gid1_3d_6738.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20809gid1_3d_6738.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20809gid1_3d_6830.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20809gid1_3d_6830.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20809gid1_3d_6836.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20809gid1_3d_6836.pb \
@@ -122,14 +131,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20809imsi_3d_208090036.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20809imsi_3d_208090036.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20810.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20810.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20810gid1_3d_12.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20810gid1_3d_12.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20810gid1_3d_44.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20810gid1_3d_44.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20810gid1_3d_4c.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20810gid1_3d_4c.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20810gid1_3d_53.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20810gid1_3d_53.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20810spn_3d_keyyo_20_mobile.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20810spn_3d_keyyo_20_mobile.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20810spn_3d_leclerc_20_mobile.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20810spn_3d_leclerc_20_mobile.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20810spn_3d_leclercmobile.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20810spn_3d_leclercmobile.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20810spn_3d_reglomobile.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20810spn_3d_reglomobile.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20810spn_3d_zero_20_forfait.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20810spn_3d_zero_20_forfait.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20811.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20811.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20813.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20813.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20815.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20815.pb \
@@ -143,6 +146,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20816gid1_3d_f003.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20816gid1_3d_f003.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20817.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20817.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20820.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20820.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20820spn_3d_la_20_poste_20_mobile.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20820spn_3d_la_20_poste_20_mobile.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20821.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20821.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20822.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20822.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s20822spn_3d_fr_2d_transatel.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s20822spn_3d_fr_2d_transatel.pb \
@@ -165,25 +169,41 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21403imsi_3d_2140359.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21403imsi_3d_2140359.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21403spn_3d_cable_20_movil.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21403spn_3d_cable_20_movil.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21403spn_3d_euskaltel.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21403spn_3d_euskaltel.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21403spn_3d_eusktel.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21403spn_3d_eusktel.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21403spn_3d_ibercom.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21403spn_3d_ibercom.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21403spn_3d_jazztel.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21403spn_3d_jazztel.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21403spn_3d_masmovil.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21403spn_3d_masmovil.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21403spn_3d_mobil_20_r.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21403spn_3d_mobil_20_r.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21403spn_3d_mobilr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21403spn_3d_mobilr.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21403spn_3d_orange.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21403spn_3d_orange.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21403spn_3d_ptv_20_telecom.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21403spn_3d_ptv_20_telecom.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21403spn_3d_r.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21403spn_3d_r.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21403spn_3d_racc.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21403spn_3d_racc.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21403spn_3d_simyo.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21403spn_3d_simyo.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21403spn_3d_telecable.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21403spn_3d_telecable.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21403spn_3d_virgin_20_telco.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21403spn_3d_virgin_20_telco.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404imsi_3d_2140423.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404imsi_3d_2140423.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404imsi_3d_2140426.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404imsi_3d_2140426.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_cablemovil.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_cablemovil.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_euskaltel.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_euskaltel.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_guuk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_guuk.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_lebara.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_lebara.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_llamaya.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_llamaya.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_lycamobile.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_lycamobile.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_masmovil.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_masmovil.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_mobilr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_mobilr.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_parlem.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_parlem.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_pepephone.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_pepephone.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_populoos.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_populoos.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_r.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_r.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_racc.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_racc.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_racctel_2b_.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_racctel_2b_.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_simple.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_simple.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_sweno.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_sweno.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_telecable.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_telecable.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_tu_20_operador.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_tu_20_operador.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_virgin_20_telco.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_virgin_20_telco.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21404spn_3d_yoigo.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21404spn_3d_yoigo.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21405.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21405.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21405gid1_3d_44474553.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21405gid1_3d_44474553.pb \
@@ -195,17 +215,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21406.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21406.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21406gid1_3d_214050111.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21406gid1_3d_214050111.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21406spn_3d_eroski_20_movil.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21406spn_3d_eroski_20_movil.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21406spn_3d_euskaltel.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21406spn_3d_euskaltel.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21406spn_3d_finetwork.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21406spn_3d_finetwork.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21406spn_3d_hits.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21406spn_3d_hits.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21406spn_3d_lebara.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21406spn_3d_lebara.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21406spn_3d_lowi.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21406spn_3d_lowi.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21406spn_3d_pepephone.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21406spn_3d_pepephone.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21406spn_3d_ptv_20_telecom.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21406spn_3d_ptv_20_telecom.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21406spn_3d_telecable.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21406spn_3d_telecable.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21407.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21407.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21407imsi_3d_2140759577xxxxx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21407imsi_3d_2140759577xxxxx.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21407imsi_3d_2140796692xxxxx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21407imsi_3d_2140796692xxxxx.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21407spn_3d_jazztel.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21407spn_3d_jazztel.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21408.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21408.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21408spn_3d_euskaltel.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21408spn_3d_euskaltel.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21408spn_3d_mobil_20_r.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21408spn_3d_mobil_20_r.pb \
@@ -217,6 +233,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21413.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21413.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21414.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21414.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21415.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21415.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21415spn_3d_ptv_20_telecom.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21415spn_3d_ptv_20_telecom.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21416.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21416.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21416gid1_3d_16.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21416gid1_3d_16.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21416spn_3d_telecable.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21416spn_3d_telecable.pb \
@@ -224,11 +241,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21417spn_3d_mobil_20_r.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21417spn_3d_mobil_20_r.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21417spn_3d_mobilr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21417spn_3d_mobilr.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21418.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21418.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21419.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21419.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21419spn_3d_simyo.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21419spn_3d_simyo.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21420.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21420.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21421.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21421.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21421spn_3d_jazztel.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21421spn_3d_jazztel.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21422.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21422.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21427.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21427.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s21432spn_3d_tuenti.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s21432spn_3d_tuenti.pb \
@@ -282,6 +296,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22005.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22005.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22201.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22201.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22201gid1_3d_434f4f50ffffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22201gid1_3d_434f4f50ffffffffff.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22201gid1_3d_4b656e6101ffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22201gid1_3d_4b656e6101ffffffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22201gid1_3d_4b656e61ffffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22201gid1_3d_4b656e61ffffffffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22201gid1_3d_ffffff0000ffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22201gid1_3d_ffffff0000ffffffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22201spn_3d_at_26_t.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22201spn_3d_at_26_t.pb \
@@ -293,7 +308,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22201spn_3d_unefon_20_4g.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22201spn_3d_unefon_20_4g.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22206.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22206.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22207.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22207.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22207gid1_3d_4b656e61ffffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22207gid1_3d_4b656e61ffffffffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22208.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22208.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22210.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22210.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22210spn_3d_erg.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22210spn_3d_erg.pb \
@@ -312,7 +326,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22256.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22256.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22288.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22288.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22288gid1_3d_0000000099.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22288gid1_3d_0000000099.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22288gid1_3d_ffffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22288gid1_3d_ffffffffff.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22288gid1_3d_ffffffffffffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22288gid1_3d_ffffffffffffffffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22299.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22299.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22299gid1_3d_0000000000.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22299gid1_3d_0000000000.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22299gid1_3d_0000000099.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22299gid1_3d_0000000099.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22299spn_3d_fastweb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22299spn_3d_fastweb.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22601.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22601.pb \
@@ -340,7 +357,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22803gid1_3d_bb00.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22803gid1_3d_bb00.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22803spn_3d_ch_2d_transatel.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22803spn_3d_ch_2d_transatel.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22812.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22812.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22854.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22854.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22871.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22871.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s22873.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s22873.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23001.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23001.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23001spn_3d_innogy.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23001spn_3d_innogy.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23001spn_3d_kaktus.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23001spn_3d_kaktus.pb \
@@ -395,10 +414,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23217.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23217.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23217gid1_3d_0042.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23217gid1_3d_0042.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23217gid1_3d_0044.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23217gid1_3d_0044.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23217gid1_3d_0x0042.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23217gid1_3d_0x0042.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23217gid1_3d_0x0044.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23217gid1_3d_0x0044.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23217gid1_3d_42.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23217gid1_3d_42.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23217gid1_3d_44.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23217gid1_3d_44.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23223.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23223.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23228.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23228.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23401.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23401.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23403.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23403.pb \
@@ -416,13 +434,28 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410gid1_3d_67.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410gid1_3d_67.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410gid1_3d_85.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410gid1_3d_85.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410gid1_3d_99.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410gid1_3d_99.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410imsi_3d_234103519.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410imsi_3d_234103519.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410imsi_3d_234103889.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410imsi_3d_234103889.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410imsi_3d_234104099.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410imsi_3d_234104099.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410imsi_3d_234104869.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410imsi_3d_234104869.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410imsi_3d_234104979.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410imsi_3d_234104979.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410imsi_3d_234105619.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410imsi_3d_234105619.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410imsi_3d_234106229.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410imsi_3d_234106229.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410imsi_3d_234106309.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410imsi_3d_234106309.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410imsi_3d_234106459.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410imsi_3d_234106459.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410imsi_3d_234106469.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410imsi_3d_234106469.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410imsi_3d_234106479.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410imsi_3d_234106479.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410imsi_3d_234106499.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410imsi_3d_234106499.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410imsi_3d_234106869.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410imsi_3d_234106869.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410imsi_3d_234106899.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410imsi_3d_234106899.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410imsi_3d_234106969.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410imsi_3d_234106969.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410imsi_3d_234107079.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410imsi_3d_234107079.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410imsi_3d_234107489.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410imsi_3d_234107489.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410spn_3d_giffgaff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410spn_3d_giffgaff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23410spn_3d_jump.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23410spn_3d_jump.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23415.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23415.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23415gid1_3d_90.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23415gid1_3d_90.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23415gid1_3d_a0.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23415gid1_3d_a0.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23415gid1_3d_a1.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23415gid1_3d_a1.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23415gid1_3d_b3.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23415gid1_3d_b3.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23415gid1_3d_c1.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23415gid1_3d_c1.pb \
@@ -448,6 +481,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23430gid1_3d_c3ff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23430gid1_3d_c3ff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23430gid1_3d_ee.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23430gid1_3d_ee.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23430gid1_3d_eeff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23430gid1_3d_eeff.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23430spn_3d_lycamobile.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23430spn_3d_lycamobile.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23431.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23431.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23432.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23432.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23433.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23433.pb \
@@ -482,6 +516,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23802.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23802.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23806.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23806.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23810.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23810.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23812.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23812.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23820.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23820.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23820spn_3d_call_20_me.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23820spn_3d_call_20_me.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s23820spn_3d_dlg_20_tele.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s23820spn_3d_dlg_20_tele.pb \
@@ -507,21 +542,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007gid1_3d_0050.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007gid1_3d_0050.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007gid1_3d_0052.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007gid1_3d_0052.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007gid1_3d_0c.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007gid1_3d_0c.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007gid1_3d_0x0040.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007gid1_3d_0x0040.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007gid1_3d_0x0041.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007gid1_3d_0x0041.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007gid1_3d_0x0042.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007gid1_3d_0x0042.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007gid1_3d_0x0044.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007gid1_3d_0x0044.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007gid1_3d_0x0048.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007gid1_3d_0x0048.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007gid1_3d_0x0050.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007gid1_3d_0x0050.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007gid1_3d_0x0052.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007gid1_3d_0x0052.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007gid1_3d_40.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007gid1_3d_40.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007gid1_3d_41.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007gid1_3d_41.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007gid1_3d_42.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007gid1_3d_42.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007gid1_3d_44.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007gid1_3d_44.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007gid1_3d_48.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007gid1_3d_48.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007gid1_3d_52.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007gid1_3d_52.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007imsi_3d_24007561.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007imsi_3d_24007561.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007imsi_3d_240075610.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007imsi_3d_240075610.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007imsi_3d_240075614.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007imsi_3d_240075614.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007imsi_3d_2400768xxxxxxxx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007imsi_3d_2400768xxxxxxxx.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24007spn_3d_jump.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24007spn_3d_jump.pb \
@@ -541,12 +563,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24202imsi_3d_2420256.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24202imsi_3d_2420256.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24204.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24204.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24205.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24205.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24205spn_3d_mycall.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24205spn_3d_mycall.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24205spn_3d_onecall.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24205spn_3d_onecall.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24208.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24208.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24209.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24209.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24212.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24212.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24214.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24214.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24215.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24215.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24215gid1_3d_0e.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24215gid1_3d_0e.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24223.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24223.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24403.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24403.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24404.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24404.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s24405.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s24405.pb \
@@ -613,21 +638,28 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s25901.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s25901.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s25902.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s25902.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s25905.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s25905.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s25915spn_3d_idc.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s25915spn_3d_idc.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26001.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26001.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002gid1_3d_10.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002gid1_3d_10.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002gid1_3d_11.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002gid1_3d_11.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002gid1_3d_12.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002gid1_3d_12.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002gid1_3d_13.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002gid1_3d_13.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002gid1_3d_14.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002gid1_3d_14.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002gid1_3d_16.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002gid1_3d_16.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002gid1_3d_17.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002gid1_3d_17.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002gid1_3d_20.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002gid1_3d_20.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002gid1_3d_21.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002gid1_3d_21.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002gid1_3d_22.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002gid1_3d_22.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002gid1_3d_23.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002gid1_3d_23.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002gid1_3d_24.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002gid1_3d_24.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002gid1_3d_25.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002gid1_3d_25.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002gid1_3d_26.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002gid1_3d_26.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002gid1_3d_27.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002gid1_3d_27.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002gid1_3d_28.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002gid1_3d_28.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002gid1_3d_29.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002gid1_3d_29.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002gid1_3d_30.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002gid1_3d_30.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002spn_3d_heyah.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002spn_3d_heyah.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002spn_3d_t_2d_mobile_2e_pl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002spn_3d_t_2d_mobile_2e_pl.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002spn_3d_t_2d_mobile_2e_pl_20_q.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002spn_3d_t_2d_mobile_2e_pl_20_q.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26002spn_3d_tu_20_biedronka.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26002spn_3d_tu_20_biedronka.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26003.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26003.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26003spn_3d_nju.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26003spn_3d_nju.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26003spn_3d_orange.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26003spn_3d_orange.pb \
@@ -722,7 +754,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26203imsi_3d_26203293x.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26203imsi_3d_26203293x.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26203imsi_3d_26203330x.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26203imsi_3d_26203330x.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26204.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26204.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26205.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26205.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26206.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26206.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26206gid1_3d_01.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26206gid1_3d_01.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26206gid1_3d_02.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26206gid1_3d_02.pb \
@@ -756,9 +787,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26221.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26221.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26223.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26223.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26242.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26242.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26277.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26277.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26298.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26298.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26601.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26601.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26801.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26801.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26801gid1_3d_25.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26801gid1_3d_25.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26801spn_3d_zon.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26801spn_3d_zon.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26802.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26802.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26803.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26803.pb \
@@ -770,6 +802,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26806.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26806.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26808.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26808.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26889.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26889.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26889gid1_3d_25.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26889gid1_3d_25.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26891.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26891.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26892.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26892.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s26893spn_3d_get.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s26893spn_3d_get.pb \
@@ -803,17 +836,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s27207.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s27207.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s27211.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s27211.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s27211imsi_3d_272110200677368.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s27211imsi_3d_272110200677368.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s27213.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s27213.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s27217.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s27217.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s27401.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s27401.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s27402.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s27402.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s27403.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s27403.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s27411.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s27411.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s27601.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s27601.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s27601gid1_3d_01.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s27601gid1_3d_01.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s27602.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s27602.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s27602spn_3d_vodafone_20_al.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s27602spn_3d_vodafone_20_al.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s27603.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s27603.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s27801.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s27801.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s27801spn_3d_vodafone_20_mt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s27801spn_3d_vodafone_20_mt.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s28001.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s28001.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s28010.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s28010.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s28020.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s28020.pb \
@@ -859,13 +892,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s302220gid1_3d_5043.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s302220gid1_3d_5043.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s302220gid1_3d_5455.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s302220gid1_3d_5455.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s302220gid1_3d_6332.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s302220gid1_3d_6332.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s302220gid1_3d_6336.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s302220gid1_3d_6336.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s302220gid1_3d_6530.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s302220gid1_3d_6530.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s302220gid1_3d_6532.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s302220gid1_3d_6532.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s302220gid1_3d_6538.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s302220gid1_3d_6538.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s302220gid1_3d_6624.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s302220gid1_3d_6624.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s302220gid1_3d_6630.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s302220gid1_3d_6630.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s302220gid1_3d_6636.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s302220gid1_3d_6636.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s302220gid1_3d_6638.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s302220gid1_3d_6638.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s302220gid1_3d_6732.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s302220gid1_3d_6732.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s302220gid1_3d_6736.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s302220gid1_3d_6736.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s302220gid1_3d_6738.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s302220gid1_3d_6738.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s302220gid1_3d_6830.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s302220gid1_3d_6830.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s302220gid1_3d_6836.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s302220gid1_3d_6836.pb \
@@ -959,6 +995,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s30286gid1_3d_5455.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s30286gid1_3d_5455.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s302940.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s302940.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s302990.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s302990.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s30803.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s30803.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s31000.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s31000.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310000.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310000.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310000gid1_3d_6134.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310000gid1_3d_6134.pb \
@@ -1139,6 +1176,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310120gid1_3d_000004.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310120gid1_3d_000004.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310120gid1_3d_000005.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310120gid1_3d_000005.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310120gid1_3d_000006.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310120gid1_3d_000006.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310120gid1_3d_4358.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310120gid1_3d_4358.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310120gid1_3d_6134.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310120gid1_3d_6134.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310120gid1_3d_a00002.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310120gid1_3d_a00002.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310120gid1_3d_a00004.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310120gid1_3d_a00004.pb \
@@ -1317,6 +1355,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_4154.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_4154.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_4155.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_4155.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_4276.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_4276.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_4352.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_4352.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_4358.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_4358.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_4d4b.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_4d4b.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_514c.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_514c.pb \
@@ -1324,10 +1363,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_554d.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_554d.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6132.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6132.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6134.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6134.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6136.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6136.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6230.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6230.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6303.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6303.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6430.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6430.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6432.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6432.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6434.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6434.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6436.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6436.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6438.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6438.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6440.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6440.pb \
@@ -1341,18 +1381,36 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6910.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6910.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6911.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6911.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6912.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6912.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6913.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6913.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6914.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6914.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6916.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6916.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6917.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6917.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6918.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6918.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6919.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6919.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6921.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6921.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6922.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6922.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6923.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6923.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6924.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6924.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6925.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6925.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6926.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6926.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6941.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6941.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6957.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6957.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6972.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6972.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6c79.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6c79.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_6d38.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_6d38.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_7031.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_7031.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_7032.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_7032.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_7100.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_7100.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_7531.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_7531.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_756d.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_756d.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_7601.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_7601.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_8135.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_8135.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_9136.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_9136.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_ba02.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_ba02.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_cc01.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_cc01.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_ddff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_ddff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_deff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_deff.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310240gid1_3d_ffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310240gid1_3d_ffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310250.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310250.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310250gid1_3d_1a53.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310250gid1_3d_1a53.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310250gid1_3d_2ac9.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310250gid1_3d_2ac9.pb \
@@ -1374,6 +1432,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_4155.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_4155.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_4201.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_4201.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_4276.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_4276.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_4352.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_4352.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_4358.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_4358.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_44ff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_44ff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_4753.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_4753.pb \
@@ -1398,7 +1457,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_61ff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_61ff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6230.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6230.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_62ff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_62ff.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6303.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6303.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6901.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6901.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6902.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6902.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6903.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6903.pb \
@@ -1408,23 +1466,40 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6910.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6910.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6911.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6911.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6912.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6912.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6913.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6913.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6914.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6914.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6916.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6916.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6917.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6917.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6918.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6918.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6919.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6919.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6921.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6921.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6922.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6922.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6923.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6923.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6924.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6924.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6925.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6925.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6926.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6926.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6941.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6941.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6957.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6957.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6972.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6972.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_69ff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_69ff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6c79.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6c79.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_6d38.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_6d38.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_7031.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_7031.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_7032.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_7032.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_7100.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_7100.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_726d.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_726d.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_7376.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_7376.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_7477.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_7477.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_7531.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_7531.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_756d.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_756d.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_7601.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_7601.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_8135.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_8135.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_8234.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_8234.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_9136.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_9136.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_ab.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_ab.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_ddff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_ddff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_deff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_deff.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260gid1_3d_ffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260gid1_3d_ffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310260imsi_3d_31026097.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310260imsi_3d_31026097.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310270.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310270.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310270gid1_3d_1a53.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310270gid1_3d_1a53.pb \
@@ -1470,6 +1545,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310370.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310370.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310380.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310380.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310380gid1_3d_2ac9.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310380gid1_3d_2ac9.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310380gid1_3d_39ff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310380gid1_3d_39ff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310380gid1_3d_50ff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310380gid1_3d_50ff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310380gid1_3d_52ff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310380gid1_3d_52ff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s310380gid1_3d_53ff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s310380gid1_3d_53ff.pb \
@@ -1828,6 +1904,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311586.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311586.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311587.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311587.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311588.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311588.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311588gid1_3d_6624.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311588gid1_3d_6624.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311589.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311589.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311590.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311590.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311590spn_3d_gsc.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311590spn_3d_gsc.pb \
@@ -1839,10 +1916,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311630spn_3d_sprint.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311630spn_3d_sprint.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311650.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311650.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311650gid1_3d_ba00220000000000.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311650gid1_3d_ba00220000000000.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311650spn_3d_unitedwireless.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311650spn_3d_unitedwireless.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311650spn_3d_united_20_wireless.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311650spn_3d_united_20_wireless.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311660.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311660.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311660gid1_3d_1a53.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311660gid1_3d_1a53.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311660gid1_3d_6d38.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311660gid1_3d_6d38.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311670.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311670.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311670spn_3d_pinebelt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311670spn_3d_pinebelt.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311670spn_3d_sprint.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311670spn_3d_sprint.pb \
@@ -1860,6 +1935,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311870gid1_3d_000002.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311870gid1_3d_000002.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311882.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311882.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311882gid1_3d_1a53.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311882gid1_3d_1a53.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311882gid1_3d_6136.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311882gid1_3d_6136.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311882gid1_3d_6d38.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311882gid1_3d_6d38.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311910.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311910.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s311910spn_3d_sprint.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s311910spn_3d_sprint.pb \
@@ -2033,6 +2109,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s312570spn_3d_sprint.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s312570spn_3d_sprint.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s312580.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s312580.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s312580gid1_3d_0001.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s312580gid1_3d_0001.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s312630spn_3d_netgenuity.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s312630spn_3d_netgenuity.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s312630spn_3d_persistent_20_telecom.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s312630spn_3d_persistent_20_telecom.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s312630spn_3d_pti.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s312630spn_3d_pti.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s312670.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s312670.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s312720.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s312720.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s312720spn_3d_sprint.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s312720spn_3d_sprint.pb \
@@ -2062,6 +2141,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313340gid1_3d_6638.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313340gid1_3d_6638.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313340gid1_3d_6730.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313340gid1_3d_6730.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313340gid1_3d_6732.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313340gid1_3d_6732.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313340gid1_3d_6736.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313340gid1_3d_6736.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313340gid1_3d_6738.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313340gid1_3d_6738.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313340gid1_3d_6830.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313340gid1_3d_6830.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313340gid1_3d_6836.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313340gid1_3d_6836.pb \
@@ -2078,13 +2158,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313340gid1_3d_9034.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313340gid1_3d_9034.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313340gid1_3d_9036.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313340gid1_3d_9036.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313340gid1_3d_9038.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313340gid1_3d_9038.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313350gid1_3d_6332.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313350gid1_3d_6332.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313350gid1_3d_6530.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313350gid1_3d_6530.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313360gid1_3d_6332.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313360gid1_3d_6332.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313360gid1_3d_6530.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313360gid1_3d_6530.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313380.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313380.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313380spn_3d_optimera.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313380spn_3d_optimera.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313390.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313390.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313450.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313450.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313450gid1_3d_ba01490000000000.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313450gid1_3d_ba01490000000000.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313460.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313460.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313460gid1_3d_6624.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313460gid1_3d_6624.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313590.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313590.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313640.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313640.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313770.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313770.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313790.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313790.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s313930.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s313930.pb \
@@ -2092,6 +2176,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s314090.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s314090.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s314200.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s314200.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s314240.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s314240.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s314720.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s314720.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s315010.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s315010.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s315010gid1_3d_6907.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s315010gid1_3d_6907.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s316010.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s316010.pb \
@@ -2116,11 +2201,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s334050gid1_3d_424c5545ffffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s334050gid1_3d_424c5545ffffffffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s334050gid1_3d_4d454741ffffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s334050gid1_3d_4d454741ffffffffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s334050gid1_3d_4e45575757ffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s334050gid1_3d_4e45575757ffffffff.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s334050gid1_3d_4f4e45ffffffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s334050gid1_3d_4f4e45ffffffffffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s334050gid1_3d_55424958ffffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s334050gid1_3d_55424958ffffffffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s334050gid1_3d_594fffffffffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s334050gid1_3d_594fffffffffffffff.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s334050gid1_3d_62616974ffffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s334050gid1_3d_62616974ffffffffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s33405gid1_3d_424c5545ffffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s33405gid1_3d_424c5545ffffffffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s33405gid1_3d_4d454741ffffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s33405gid1_3d_4d454741ffffffffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s33405gid1_3d_4e45575757ffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s33405gid1_3d_4e45575757ffffffff.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s33405gid1_3d_4f4e45ffffffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s33405gid1_3d_4f4e45ffffffffffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s33405gid1_3d_55424958ffffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s33405gid1_3d_55424958ffffffffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s33405gid1_3d_594fffffffffffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s33405gid1_3d_594fffffffffffffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s334070.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s334070.pb \
@@ -2159,7 +2247,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s334140spn_3d_yo.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s334140spn_3d_yo.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s334160.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s334160.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s334160spn_3d_izzi.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s334160spn_3d_izzi.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s33430.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s33430.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s334170.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s334170.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s334240.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s334240.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s338050.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s338050.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s338070.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s338070.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s33818.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s33818.pb \
@@ -2190,6 +2279,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s36011.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s36011.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s360110.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s360110.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s36269.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s36269.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s36291.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s36291.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s36301.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s36301.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s36302.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s36302.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s363020.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s363020.pb \
@@ -2543,6 +2633,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s416770.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s416770.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s41701.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s41701.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s41702.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s41702.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s41750.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s41750.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s41805.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s41805.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s41808.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s41808.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s41820.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s41820.pb \
@@ -2621,6 +2712,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s43405.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s43405.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s43406.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s43406.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s43407.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s43407.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s43411.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s43411.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s43601.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s43601.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s43602.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s43602.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s43603.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s43603.pb \
@@ -2660,6 +2752,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s44054gid1_3d_26.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s44054gid1_3d_26.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s44100.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s44100.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s44120.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s44120.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s441216.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s441216.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s45000.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s45000.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s450006.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s450006.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s45002.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s45002.pb \
@@ -2855,6 +2948,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s52802.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s52802.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s52811.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s52811.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s53001.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s53001.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s53001spn_3d_one_20_nz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s53001spn_3d_one_20_nz.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s53001spn_3d_vodafone_20_nz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s53001spn_3d_vodafone_20_nz.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s53005.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s53005.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s53005spn_3d_skinny.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s53005spn_3d_skinny.pb \
@@ -2894,6 +2988,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s55280.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s55280.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s60201.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s60201.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s60202.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s60202.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s60202spn_3d_vodafone.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s60202spn_3d_vodafone.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s60203.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s60203.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s60204.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s60204.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s60301.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s60301.pb \
@@ -3097,6 +3192,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s71203.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s71203.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s71204.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s71204.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s71204gid1_3d_414c54414e.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s71204gid1_3d_414c54414e.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s71220.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s71220.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s71401.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s71401.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s71402.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s71402.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s714020.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s714020.pb \
@@ -3124,6 +3220,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s72403.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s72403.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s72404.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s72404.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s72405.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s72405.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s72405gid1_3d_4e55ffffff.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s72405gid1_3d_4e55ffffff.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s72406.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s72406.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s72407.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s72407.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s72410.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s72410.pb \
@@ -3158,6 +3255,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s73010.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s73010.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s73023.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s73023.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s73026.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s73026.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s73028.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s73028.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s73031.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s73031.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s732001.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s732001.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s732101.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s732101.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s732103.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s732103.pb \
@@ -3173,6 +3272,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s732111spn_3d_une.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s732111spn_3d_une.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s73212.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s73212.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s732123.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s732123.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s732123imsi_3d_73212320.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s732123imsi_3d_73212320.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s732123imsi_3d_732123210.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s732123imsi_3d_732123210.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s732123imsi_3d_732123211.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s732123imsi_3d_732123211.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s732123imsi_3d_732123212.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s732123imsi_3d_732123212.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s732123spn_3d_virgin_20_mobile.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s732123spn_3d_virgin_20_mobile.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s732130.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s732130.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s732187.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s732187.pb \
@@ -3207,7 +3310,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s90137.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s90137.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s90143.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s90143.pb \
     vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s90158.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s90158.pb \
-    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s999480.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s999480.pb
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s999480.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s999480.pb \
+    vendor/motorola/rtwo/proprietary/product/etc/CarrierSettings/s99999.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s99999.pb
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/rtwo/proprietary/product/etc/permissions/com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera3.xml \
