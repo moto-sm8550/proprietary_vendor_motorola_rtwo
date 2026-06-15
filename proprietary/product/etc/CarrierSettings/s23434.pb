@@ -1,9 +1,7 @@
 
-s23434ðÛ¢§
-IMSimsPp"ñ 
-allow_merging_rtt_calls_bool(-
-)carrier_default_data_roaming_enabled_bool( 
-ignore_rtt_mode_setting_bool(
+s23434¨‘Š¬
+IMSimsPp"Ó-
+)carrier_default_data_roaming_enabled_bool(
 maxImageHeight˜
 maxImageWidth 
 maxSubjectLengthPO
@@ -14,10 +12,7 @@
 23433
 23434
 23486
-recipientLimit 
-rtt_downgrade_supported_bool(
-rtt_supported_bool(
-rtt_upgrade_supported_bool("
+recipientLimit"
 show_4g_for_lte_data_icon_bool(
 smsToMmsTextThreshold
 $

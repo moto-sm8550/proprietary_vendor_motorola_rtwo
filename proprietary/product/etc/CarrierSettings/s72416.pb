@@ -1,5 +1,5 @@
 
-s72416ðÛ¢§š1
+s72416¨‘Š¬š1
 OI:INTERNET:3gprs.oi.com.brBoiJoiPpxe
 OI:MMS:3mmsgprs.oi.com.brBoimmsJoioioiPZhttp://200.222.42.204:8002b192.168.10.50j3128px"ã&
 "enhanced_4g_lte_on_by_default_bool(
