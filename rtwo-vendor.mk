@@ -3685,7 +3685,6 @@ PRODUCT_PACKAGES += \
     libopencv \
     libopencv3a \
     libopestriping \
-    libos \
     libpn560_fw \
     libportrait_repair_ppl3_ocl \
     libqll \
@@ -3700,9 +3699,7 @@ PRODUCT_PACKAGES += \
     libsn220u_fw \
     libsnpe_loader \
     libswregistrationalgo \
-    libsynx \
     libtfestriping \
-    libthreadutils \
     libtriplecam_optical_zoom_control \
     libtriplecam_video_optical_zoom \
     libubifocus \
