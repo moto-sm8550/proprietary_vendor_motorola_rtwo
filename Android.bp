@@ -7593,27 +7593,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmpbase",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmpbase.so",
-            ],
-            shared_libs: [
-                "libc",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libomp",
     owner: "motorola",
     strip: {
@@ -8482,39 +8461,11 @@ android_app_import {
     product_specific: true,
 }
 
-android_app_import {
-    name: "MotorolaSettingsProvider",
-    owner: "motorola",
-    apk: "proprietary/system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk",
-    certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
-    system_ext_specific: true,
-}
-
 dex_import {
     name: "com.motorola.motosignature",
     owner: "motorola",
     jars: [
         "proprietary/system/framework/com.motorola.motosignature.jar",
-    ],
-}
-
-dex_import {
-    name: "moto-core_services",
-    owner: "motorola",
-    jars: [
-        "proprietary/system/framework/moto-core_services.jar",
-    ],
-}
-
-dex_import {
-    name: "moto-settings",
-    owner: "motorola",
-    jars: [
-        "proprietary/system/framework/moto-settings.jar",
     ],
 }
 
